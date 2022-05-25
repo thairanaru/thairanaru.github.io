@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Random Colors</title>
-<link rel="stylesheet" href="style.css">
-<link rel="icon" type="image/png" href="randomcolors/24.png">
-<script src="scripts/randomimage.js"></script>
-<meta property="og:title" content="Here is your color XD"/>
-<meta property="og:site_name" content="quissberry.github.io" />
-<meta property="og:image" content="insertRandomImage(32);"/>
-<meta property="og:description" content="Repost link for a new color!" />
-<meta name="theme-color" content="#EDBBF3"/>
-<meta name="twitter:card" content="summary_large_image" />
+	<title>Random Colors</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/png" href="randomcolors/24.png">
+	<script src="scripts/randomimage.js"></script>
+	<meta property="og:image" content="insertRandomImage(32);"/>
 </head>
-<body onload = "insertRandomImage(32);">
-<div id="imageLocation"> </div>
+<body id="imageLocation" onload = "insertRandomImage(32);">
+	<div> 
+		<button type="button" onclick="window.location.reload()">Click me for a different color!</button>
+		<br>
+		<a href="./index.html">Press here to head back home!</a>
+	</div>
 </body>
 </html>

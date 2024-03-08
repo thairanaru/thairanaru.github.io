@@ -1,14 +1,32 @@
 h1 {
 	text-align: center;
+	color: #4c4f69
 }
+
+h {
+	color: #5c5f77
+}
+a:link {
+  color: #1e66f5;
+}
+
+/* visited link */
+a:visited {
+  color: #8839ef;
+}
+
 p {
    	text-indent:50px;
 	text-align: start;
-
+	color: #4c4f69
 }
 div {
 	text-align: center;
 }
 .textOverPicture {
 	text-shadow: 2px 1px 2px white;
+}
+
+body {
+	background-color: #eff1f5
 }

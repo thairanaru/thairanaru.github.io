@@ -1,9 +1,18 @@
+body {
+	color: #4c4f69
+	background-color: #eff1f5
+
+}
+
+
 h1 {
 	text-align: center;
 	color: #4c4f69
 }
-
-h {
+h2 {
+	color: #5c5f77
+}
+h3 {
 	color: #5c5f77
 }
 a:link {
@@ -28,5 +37,4 @@ div {
 }
 
 body {
-	background-color: #eff1f5
 }

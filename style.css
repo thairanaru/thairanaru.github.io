@@ -15,6 +15,9 @@ h2 {
 h3 {
 	color: #5c5f77
 }
+a{
+	text-indent:0px;
+}
 a:link {
   color: #1e66f5;
 }

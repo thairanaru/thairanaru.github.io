@@ -48,7 +48,7 @@ a{
 	text-indent:0px;
 }
 a:link {
-  color: var(--maroon);
+  color: var(--peach);
 }
 
 /* visited link */
@@ -71,3 +71,23 @@ div {
 
 body {
 }
+#style-writing {
+        a:link {
+          color: var(--blue);
+        }
+
+        /* visited link */
+        a:visited {
+          color: var(--mauve);
+        }
+    }
+#style-article {
+        a:link {
+          color: var(--green);
+        }
+
+        /* visited link */
+        a:visited {
+          color: var(--teal);
+        }
+    }

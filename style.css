@@ -46,12 +46,12 @@ a{
 	text-indent:0px;
 }
 a:link {
-  color: @red;
+  color: #d20f39;
 }
 
 /* visited link */
 a:visited {
-  color: @peach;
+  color: #fe640b;
 }
 
 p {

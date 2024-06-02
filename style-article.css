@@ -1,1 +1,10 @@
 import "style.css";
+
+a:link {
+  color: @blue;
+}
+
+/* visited link */
+a:visited {
+  color: @mauve;
+}

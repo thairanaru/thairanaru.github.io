@@ -1,10 +1,10 @@
 @import "style.css";
 
 a:link {
-  color: var(--mauve);
+  color: var(--blue);
 }
 
 /* visited link */
 a:visited {
-  color: var(--lavender);
+  color: var(--mauve);
 }

@@ -70,24 +70,23 @@ div {
 }
 
 body {
+
 }
 #style-writing {
         a:link {
-          color: var(--blue);
+          color: var(--blue)!important;
         }
 
-        /* visited link */
         a:visited {
-          color: var(--mauve);
+          color: var(--mauve) !important;
         }
     }
 #style-article {
         a:link {
-          color: var(--green);
+          color: var(--green) !important;
         }
 
-        /* visited link */
         a:visited {
-          color: var(--teal);
+          color: var(--teal) !important;
         }
     }

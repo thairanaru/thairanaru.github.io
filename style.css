@@ -26,7 +26,35 @@
     --mantle: #e6e9ef;
     --crust: #dce0e8;
 } 
-body:has(#color-scheme):has(option[value="frappe"]:checked) { /*frappe*/
+body:has(#color-scheme):has(option[value="solarized-light"]:checked) { /*solarized light*/
+    /*--rosewater: #f2d5cf;
+    --flamingo: #eebebe;*/
+    --pink: #d33682; /*magenta*/
+    --mauve: #6c71c4;
+    --red: #dc322f;
+    /*--maroon: #ea999c;*/
+    --peach: #b58900;
+    --yellow: #b58900;
+    --green: #859900;
+    --teal: #2aa198;
+    /*--sky: #99d1db;
+    --sapphire: #85c1dc;
+    --blue: #268bd2;*/
+    --lavender: #babbf1;
+    --text: #657b83;
+    /*--subtext1: #93a1a1;
+    --subtext0: #a5adce;
+    --overlay2: #949cbb;
+    --overlay1: #838ba7;
+    --overlay0: #737994;
+    --surface2: #626880;
+    --surface1: #51576d;
+    --surface0: #414559;*/
+    --base: #fdf6e3;
+    --mantle: #292c3c;
+    --crust: #232634;
+    background: var(--base);
+} body:has(#color-scheme):has(option[value="frappe"]:checked) { /*frappe*/
     --rosewater: #f2d5cf;
     --flamingo: #eebebe;
     --pink: #f4b8e4;

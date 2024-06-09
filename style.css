@@ -185,3 +185,19 @@ body {
 
 }
 
+select {
+    border: 0;
+    background: var(--surface1);
+    color: var(--text);
+}
+
+.caption {
+    font-style: italic;
+    font-size: 14px;
+    color: var(--subtext);
+	text-align: center;
+}
+
+/**::selection{
+    background: var(--blue);
+}*/

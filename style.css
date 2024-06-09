@@ -26,7 +26,7 @@
     --mantle: #e6e9ef;
     --crust: #dce0e8;
 } 
-#color-scheme:has(> option[value="frappe"]:checked) ~ * { /*mocha*/
+body:has(#color-scheme):has(option[value="frappe"]:checked) { /*frappe*/
     --rosewater: #f2d5cf;
     --flamingo: #eebebe;
     --pink: #f4b8e4;
@@ -53,8 +53,9 @@
     --base: #303446;
     --mantle: #292c3c;
     --crust: #232634;
+    background: var(--base);
 } 
-#color-scheme:has(> option[value="macchiato"]:checked) ~ * { /*mocha*/
+body:has(#color-scheme):has(option[value="macchiato"]:checked) { /*macchiato*/
     --rosewater: #f4dbd6;
     --flamingo: #f0c6c6;
     --pink: #f5bde6;
@@ -80,9 +81,10 @@
     --surface0: #363a4f;
     --base: #24273a;
     --mantle: #1e2030;
+    background: var(--base);
     --crust: #181926;
 } 
-#color-scheme:has(> option[value="mocha"]:checked) ~ * { /*mocha*/
+body:has(#color-scheme):has(option[value="mocha"]:checked) { /*mocha*/
     --rosewater: #f5e0dc;
     --flamingo: #f2cdcd;
     --pink: #f5c2e7;
@@ -108,13 +110,13 @@
     --surface0: #313244;
     --base: #1e1e2e;
     --mantle: #181825;
+    background: var(--base);
     --crust: #11111b;
 } 
 
-.color-scheme-wrapper {
+body {
     color: var(--text);
     background: var(--base);
-    min-height:100vh;
 }
 
 h1 {

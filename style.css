@@ -187,7 +187,7 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
-tr {background-color:var(--mantle); font-weight: normal;}
+tr {background-color:var(--mantle); font-weight: normal; text-align: center;}
 th {background-color:var(--crust); font-weight: bold;}
 /*tr:nth-child(even) {background-color:var(--base);}*/
 table, th, td {

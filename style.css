@@ -203,7 +203,7 @@ select {
 
 .caption {
     font-style: italic;
-    font-size: 14px;
+    font-size: 15px;
     color: var(--subtext);
 	text-align: center;
 }

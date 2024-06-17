@@ -196,7 +196,8 @@ table, th, td {
 
 select {
     border: 0;
-    background: var(--surface1);
+    background: var(--crust);
+    border: 2px solid var(--surface0);
     color: var(--text);
 }
 

@@ -48,12 +48,12 @@ a{
 	text-indent:0px;
 }
 a:link {
-  color: var(--peach);
+  color: var(--blue);
 }
 
 /* visited link */
 a:visited {
-  color: var(--red);
+  color: var(--mauve);
 }
 
 p {
@@ -72,21 +72,4 @@ div {
 body {
 
 }
-#style-writing {
-        a:link {
-          color: var(--blue)!important;
-        }
 
-        a:visited {
-          color: var(--mauve) !important;
-        }
-    }
-#style-article {
-        a:link {
-          color: var(--green) !important;
-        }
-
-        a:visited {
-          color: var(--teal) !important;
-        }
-    }

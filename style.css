@@ -198,6 +198,16 @@ select {
     color: var(--subtext);
 	text-align: center;
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr {background-color:var(--mantle); font-weight: normal;}
+tr:nth-child(1) {background-color:var(--crust); font-weight: bold;}
+/*tr:nth-child(even) {background-color:var(--base);}*/
+table, th, td {
+      border: 2px solid var(--surface0);
+}
 
 /**::selection{
     background: var(--blue);

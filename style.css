@@ -145,6 +145,7 @@ body:has(#color-scheme):has(option[value="mocha"]:checked) { /*mocha*/
 body {
     color: var(--text);
     background: var(--base);
+    font-family: "Times New Roman"
 }
 
 h1 {

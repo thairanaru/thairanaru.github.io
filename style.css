@@ -30,7 +30,7 @@ body:has(#color-scheme):has(option[value="solarized-light"]:checked) { /*solariz
     /*--rosewater: #f2d5cf;
     --flamingo: #eebebe;*/
     --pink: #d3869b; /*magenta*/
-    --mauve: #b16286;
+    --mauve: #907aa9;
     --red: #fb4934;
     --maroon: #cc241d;
     --peach: #fe8019;
@@ -39,20 +39,20 @@ body:has(#color-scheme):has(option[value="solarized-light"]:checked) { /*solariz
     --teal: #689d6a;
     /*--sky: #99d1db;
     --sapphire: #85c1dc;*/
-    --blue: #458588;
+    --blue: #56949f;
     --lavender: #babbf1;
-    --text: #665C54;
-    --subtext1: #928374;/*
+    --text: #575279;
+    --subtext1: #797593;/*
     --subtext0: #a5adce;*/
     --overlay2: #949cbb;
     --overlay1: #838ba7;
     --overlay0: #bdae93;
     --surface2: #626880;
     --surface1: #51576d;
-    --surface0: #d5c4a1;
-    --base: #f9f5d7;
-    --mantle: #fbf1c7;
-    --crust: #ebdbb2;
+    --surface0: #dfdad9;
+    --base: #faf4ed;
+    --mantle: #fffaf3;
+    --crust: #f4ede8;
     background: var(--base);
 } body:has(#color-scheme):has(option[value="frappe"]:checked) { /*frappe*/
     --rosewater: #f2d5cf;

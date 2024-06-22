@@ -41,18 +41,18 @@ body:has(#color-scheme):has(option[value="solarized-light"]:checked) { /*solariz
     --sapphire: #85c1dc;*/
     --blue: #458588;
     --lavender: #babbf1;
-    --text: #282828;
-    /*--subtext1: #93a1a1;
-    --subtext0: #a5adce;
+    --text: #665C54;
+    --subtext1: #928374;/*
+    --subtext0: #a5adce;*/
     --overlay2: #949cbb;
     --overlay1: #838ba7;
-    --overlay0: #737994;
+    --overlay0: #bdae93;
     --surface2: #626880;
-    --surface1: #51576d;*/
-    --surface0: #7b6F63;
-    --base: #FCF0C9;
-    --mantle: #EBDAB3;
-    --crust: #D4C4A3;
+    --surface1: #51576d;
+    --surface0: #d5c4a1;
+    --base: #f9f5d7;
+    --mantle: #fbf1c7;
+    --crust: #ebdbb2;
     background: var(--base);
 } body:has(#color-scheme):has(option[value="frappe"]:checked) { /*frappe*/
     --rosewater: #f2d5cf;
@@ -204,7 +204,7 @@ select {
 .caption {
     font-style: italic;
     font-size: 15px;
-    color: var(--subtext);
+    color: var(--subtext1);
 	text-align: center;
 }
 

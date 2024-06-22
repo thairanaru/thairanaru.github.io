@@ -2,7 +2,7 @@
     --rosewater: #dc8a78;
     --flamingo: #dd7878;
     --pink: #ea76cb;
-    --mauve: #8839ef;
+    --purple: #8839ef;
     --red: #d20f39;
     --maroon: #e64553;
     --peach: #fe640b;
@@ -14,23 +14,23 @@
     --blue: #1e66f5;
     --lavender: #7287fd;
     --text: #4c4f69;
-    --subtext1: #5c5f77;
-    --subtext0: #6c6f85;
+    --subtext: #5c5f77;
+    --muted: #6c6f85;
     --overlay2: #7c7f93;
     --overlay1: #8c8fa1;
     --overlay0: #9ca0b0;
     --surface2: #acb0be;
     --surface1: #bcc0cc;
-    --surface0: #ccd0da;
-    --base: #eff1f5;
-    --mantle: #e6e9ef;
-    --crust: #dce0e8;
+    --border: #ccd0da;
+    --bg1: #eff1f5;
+    --bg2: #e6e9ef;
+    --bg3: #dce0e8;
 } 
 body:has(#color-scheme):has(option[value="solarized-light"]:checked) { /*solarized light*/
     /*--rosewater: #f2d5cf;
     --flamingo: #eebebe;*/
     --pink: #d3869b; /*magenta*/
-    --mauve: #907aa9;
+    --purple: #907aa9;
     --red: #fb4934;
     --maroon: #cc241d;
     --peach: #fe8019;
@@ -42,23 +42,52 @@ body:has(#color-scheme):has(option[value="solarized-light"]:checked) { /*solariz
     --blue: #56949f;
     --lavender: #babbf1;
     --text: #575279;
-    --subtext1: #797593;/*
-    --subtext0: #a5adce;*/
+    --subtext: #797593;/*
+    --muted: #a5adce;*/
     --overlay2: #949cbb;
     --overlay1: #838ba7;
     --overlay0: #bdae93;
     --surface2: #626880;
     --surface1: #51576d;
-    --surface0: #dfdad9;
-    --base: #faf4ed;
-    --mantle: #fffaf3;
-    --crust: #f4ede8;
-    background: var(--base);
-} body:has(#color-scheme):has(option[value="frappe"]:checked) { /*frappe*/
+    --border: #dfdad9;
+    --bg1: #faf4ed;
+    --bg2: #fffaf3;
+    --bg3: #f4ede8;
+    background: var(--bg1);
+} body:has(#color-scheme):has(option[value="solarized-dark"]:checked) { /*solarized light*/
+    /*--rosewater: #f2d5cf;
+    --flamingo: #eebebe;*/
+    --pink: #d3869b; /*magenta*/
+    --purple: #907aa9;
+    --red: #fb4934;
+    --maroon: #cc241d;
+    --peach: #fe8019;
+    --yellow: #fabd2f;
+    --green: #979251;
+    --teal: #689d6a;
+    /*--sky: #99d1db;
+    --sapphire: #85c1dc;*/
+    --blue: #56949f;
+    --lavender: #babbf1;
+    --text: #575279;
+    --subtext: #797593;/*
+    --muted: #a5adce;*/
+    --overlay2: #949cbb;
+    --overlay1: #838ba7;
+    --overlay0: #bdae93;
+    --surface2: #626880;
+    --surface1: #51576d;
+    --border: #dfdad9;
+    --bg1: #faf4ed;
+    --bg2: #fffaf3;
+    --bg3: #f4ede8;
+    background: var(--bg1);
+}
+body:has(#color-scheme):has(option[value="frappe"]:checked) { /*frappe*/
     --rosewater: #f2d5cf;
     --flamingo: #eebebe;
     --pink: #f4b8e4;
-    --mauve: #ca9ee6;
+    --purple: #ca9ee6;
     --red: #e78284;
     --maroon: #ea999c;
     --peach: #ef9f76;
@@ -70,24 +99,24 @@ body:has(#color-scheme):has(option[value="solarized-light"]:checked) { /*solariz
     --blue: #8caaee;
     --lavender: #babbf1;
     --text: #c6d0f5;
-    --subtext1: #b5bfe2;
-    --subtext0: #a5adce;
+    --subtext: #b5bfe2;
+    --muted: #a5adce;
     --overlay2: #949cbb;
     --overlay1: #838ba7;
     --overlay0: #737994;
     --surface2: #626880;
     --surface1: #51576d;
-    --surface0: #414559;
-    --base: #303446;
-    --mantle: #292c3c;
-    --crust: #232634;
-    background: var(--base);
+    --border: #414559;
+    --bg1: #303446;
+    --bg2: #292c3c;
+    --bg3: #232634;
+    background: var(--bg1);
 } 
 body:has(#color-scheme):has(option[value="macchiato"]:checked) { /*macchiato*/
     --rosewater: #f4dbd6;
     --flamingo: #f0c6c6;
     --pink: #f5bde6;
-    --mauve:#c6a0f6;
+    --purple:#c6a0f6;
     --red: #ed8796;
     --maroon:#ee99a0;
     --peach: #f5a97f;
@@ -99,24 +128,24 @@ body:has(#color-scheme):has(option[value="macchiato"]:checked) { /*macchiato*/
     --blue: #8aadf4;
     --lavender:#b7bdf8;
     --text: #cad3f5;
-    --subtext1:#b8c0e0;
-    --subtext0:#a5adcb;
+    --subtext:#b8c0e0;
+    --muted:#a5adcb;
     --overlay2:#939ab7;
     --overlay1:#8087a2;
     --overlay0:#6e738d;
     --surface2:#5b6078;
     --surface1:#494d64;
-    --surface0: #363a4f;
-    --base: #24273a;
-    --mantle: #1e2030;
-    background: var(--base);
-    --crust: #181926;
+    --border: #363a4f;
+    --bg1: #24273a;
+    --bg2: #1e2030;
+    background: var(--bg1);
+    --bg3: #181926;
 } 
 body:has(#color-scheme):has(option[value="mocha"]:checked) { /*mocha*/
     --rosewater: #f5e0dc;
     --flamingo: #f2cdcd;
     --pink: #f5c2e7;
-    --mauve: #cba6f7;
+    --purple: #cba6f7;
     --red: #f38ba8;
     --maroon: #eba0ac;
     --peach: #fab387;
@@ -128,23 +157,23 @@ body:has(#color-scheme):has(option[value="mocha"]:checked) { /*mocha*/
     --blue: #89b4fa;
     --lavender: #b4befe;
     --text: #cdd6f4;
-    --subtext1: #bac2de;
-    --subtext0: #a6adc8;
+    --subtext: #bac2de;
+    --muted: #a6adc8;
     --overlay2: #9399b2;
     --overlay1: #7f849c;
     --overlay0: #6c7086;
     --surface2: #585b70;
     --surface1: #45475a;
-    --surface0: #313244;
-    --base: #1e1e2e;
-    --mantle: #181825;
-    background: var(--base);
-    --crust: #11111b;
+    --border: #313244;
+    --bg1: #1e1e2e;
+    --bg2: #181825;
+    background: var(--bg1);
+    --bg3: #11111b;
 } 
 
 body {
     color: var(--text);
-    background: var(--base);
+    background: var(--bg1);
     font-family: "Times New Roman"
 }
 
@@ -167,7 +196,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: var(--mauve);
+  color: var(--purple);
 }
 
 p {
@@ -187,24 +216,24 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
-tr {background-color:var(--mantle); font-weight: normal; text-align: center;}
-th {background-color:var(--crust); font-weight: bold;}
-/*tr:nth-child(even) {background-color:var(--base);}*/
+tr {background-color:var(--bg2); font-weight: normal; text-align: center;}
+th {background-color:var(--bg3); font-weight: bold;}
+/*tr:nth-child(even) {background-color:var(--bg1);}*/
 table, th, td {
-      border: 2px solid var(--surface0);
+      border: 2px solid var(--border);
 }
 
 select {
     border: 0;
-    background: var(--crust);
-    border: 2px solid var(--surface0);
+    background: var(--bg3);
+    border: 2px solid var(--border);
     color: var(--text);
 }
 
 .caption {
     font-style: italic;
     font-size: 15px;
-    color: var(--subtext1);
+    color: var(--subtext);
 	text-align: center;
 }
 

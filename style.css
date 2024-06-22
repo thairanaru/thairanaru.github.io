@@ -58,7 +58,7 @@ body:has(#color-scheme):has(option[value="solarized-light"]:checked) { /*solariz
     /*--rosewater: #f2d5cf;
     --flamingo: #eebebe;*/
     --pink: #d3869b; /*magenta*/
-    --purple: #907aa9;
+    --purple: #c4a7e7;
     --red: #fb4934;
     --maroon: #cc241d;
     --peach: #fe8019;
@@ -67,20 +67,20 @@ body:has(#color-scheme):has(option[value="solarized-light"]:checked) { /*solariz
     --teal: #689d6a;
     /*--sky: #99d1db;
     --sapphire: #85c1dc;*/
-    --blue: #56949f;
+    --blue: #9ccfd8;
     --lavender: #babbf1;
-    --text: #575279;
-    --subtext: #797593;/*
-    --muted: #a5adce;*/
+    --text: #e0def4;
+    --subtext: #908caa;
+    --muted: #6e6a86;
     --overlay2: #949cbb;
     --overlay1: #838ba7;
     --overlay0: #bdae93;
     --surface2: #626880;
     --surface1: #51576d;
-    --border: #dfdad9;
-    --bg1: #faf4ed;
-    --bg2: #fffaf3;
-    --bg3: #f4ede8;
+    --border: #44415a;
+    --bg1: #191724;
+    --bg2: #1f1d2e;
+    --bg3: #21202e;
     background: var(--bg1);
 }
 body:has(#color-scheme):has(option[value="frappe"]:checked) { /*frappe*/
@@ -220,7 +220,7 @@ tr {background-color:var(--bg2); font-weight: normal; text-align: center;}
 th {background-color:var(--bg3); font-weight: bold;}
 /*tr:nth-child(even) {background-color:var(--bg1);}*/
 table, th, td {
-      border: 2px solid var(--border);
+      border: 1px solid var(--border);
 }
 
 select {

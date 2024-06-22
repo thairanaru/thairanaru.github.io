@@ -227,7 +227,7 @@ select {
     border: 0;
     background: var(--bg3);
     border: 2px solid var(--border);
-  file:///home/yly/quissberry.github.io/kei/portal.html  color: var(--text);
+    color: var(--text);
 }
 
 .caption {

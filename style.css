@@ -286,7 +286,8 @@ body:has(#color-scheme):has(option[value="retro"]:checked) { /*retro*/
 body {
     color: var(--text);
     background: var(--bg1);
-    font-family: "Times New Roman"
+    font-family: "Times New Roman";
+    font-size: 18px;
 }
 
 h1 {
@@ -333,8 +334,9 @@ img {
 
 
 table {
-    width: 100%;
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
 }
 tr {background-color:var(--bg2); font-weight: normal; text-align: center;}
 th {background-color:var(--bg3); font-weight: bold;}

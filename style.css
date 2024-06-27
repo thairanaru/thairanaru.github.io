@@ -1,3 +1,9 @@
+html,body {
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
 body { /* default-light */
 /*--rosewater: #f2d5cf;
     --flamingo: #eebebe;*/
@@ -322,10 +328,12 @@ div {
 }
 
 img {
-  display: block;
+    max-width: 90%;
+    min-width: 300px;
+    height: auto; 
+    display: block;
   margin-left: auto;
-  margin-right: auto;  
-  width: 90%;
+      margin-right: auto;  
 }
 
 .textOverPicture {
@@ -338,11 +346,18 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
-tr {background-color:var(--bg2); font-weight: normal; text-align: center;}
-th {background-color:var(--bg3); font-weight: bold;}
+tr {background-color:var(--bg2); font-weight: normal; text-align: center; padding: 30px;}
+th {background-color:var(--bg3); font-weight: bold;} 
 /*tr:nth-child(even) {background-color:var(--bg1);}*/
 table, th, td {
       border: 1px solid var(--border);
+}
+th, td {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+label {
+    font-size: 18px;
 }
 
 select {

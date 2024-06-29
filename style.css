@@ -42,9 +42,7 @@ body { /* default-light */
     --maroon: #cc241d;
     --peach: #fe8019;
     --yellow: #fabd2f;
-    --green: #979251;
-    --teal: #689d6a;
-    /*--sky: #99d1db;
+    --green: #979251; --teal: #689d6a; /*--sky: #99d1db;
     --sapphire: #85c1dc;*/
     --blue: #9ccfd8;
     --text: #e0def4;

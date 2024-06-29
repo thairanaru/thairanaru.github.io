@@ -345,16 +345,17 @@ table {
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
+    min-width: 90%;
 }
-tr {background-color:var(--bg2); font-weight: normal; text-align: center; padding: 30px;}
+tr {background-color:var(--bg2); font-weight: normal; text-align: center;}
 th {background-color:var(--bg3); font-weight: bold;} 
 /*tr:nth-child(even) {background-color:var(--bg1);}*/
 table, th, td {
       border: 1px solid var(--border);
 }
 th, td {
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 label {
     font-size: 18px;
@@ -369,7 +370,7 @@ select {
 
 .caption {
     font-style: italic;
-    font-size: 15px;
+    font-size: 16px;
     color: var(--subtext);
 	text-align: center;
 }

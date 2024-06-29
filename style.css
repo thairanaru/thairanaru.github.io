@@ -352,8 +352,8 @@ table, th, td {
       border: 1px solid var(--border);
 }
 th, td {
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 label {
     font-size: 18px;

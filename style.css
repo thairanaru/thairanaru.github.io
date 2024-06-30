@@ -317,7 +317,7 @@ a:visited {
 }
 
 p {
-   	text-indent:50px;
+   	text-indent:min(50px,10%);
 	text-align: start;
 	color: var(--text);
 }
@@ -335,25 +335,41 @@ img {
 }
 
 .textOverPicture {
-	text-shadow: 2px 1px 2px white;
-}
+        text-shadow: 2px 1px 2px white;
+    }
 
 
 table {
     border-collapse: collapse;
     margin-left: auto;
+    min-width: max(95%,400px);
     margin-right: auto;
-    min-width: 90%;
+    @media only screen and (max-width: 480) {
+        :not(.homePage){
+            overflox-x: auto;
+            display: block;
+
+        }
+    }
 }
-tr {background-color:var(--bg2); font-weight: normal; text-align: center;}
-th {background-color:var(--bg3); font-weight: bold;} 
+}
+tr {
+    background-color:var(--bg2);
+    font-weight: normal;
+    text-align: center;
+}
+td {
+    overflow: hidden;
+    text-overflow: ellipse
+    word-wrap: break-word;
+}
+th {
+    background-color:var(--bg3); 
+    font-weight: bold;
+} 
 /*tr:nth-child(even) {background-color:var(--bg1);}*/
 table, th, td {
       border: 1px solid var(--border);
-}
-th, td {
-  padding-left: 30px;
-  padding-right: 30px;
 }
 label {
     font-size: 18px;

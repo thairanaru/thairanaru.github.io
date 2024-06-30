@@ -355,12 +355,11 @@ table {
 }
 tr {
     font-weight: normal;
-    text-align: center;
 }
 td {
+    text-align: center;
     background-color:var(--bg2);
     overflow: hidden;
-    text-overflow: ellipse
     word-wrap: break-word;
     padding:2px;
 }

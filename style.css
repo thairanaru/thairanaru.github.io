@@ -354,18 +354,20 @@ table {
 }
 }
 tr {
-    background-color:var(--bg2);
     font-weight: normal;
     text-align: center;
 }
 td {
+    background-color:var(--bg2);
     overflow: hidden;
     text-overflow: ellipse
     word-wrap: break-word;
+    padding:2px;
 }
 th {
     background-color:var(--bg3); 
     font-weight: bold;
+    padding:2px;
 } 
 /*tr:nth-child(even) {background-color:var(--bg1);}*/
 table, th, td {

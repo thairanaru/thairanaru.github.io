@@ -320,9 +320,16 @@ p {
    	text-indent:min(50px,10%);
 	text-align: start;
 	color: var(--text);
+    margin: 0;
 }
+
+
 div {
 	text-align: center;
+    margin: 18px;
+}
+iframe {
+    margin: 18px;
 }
 
 img {

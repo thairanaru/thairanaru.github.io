@@ -1,4 +1,4 @@
-function clear() {
+function colorClear() {
   const item = document.getElementById("colorDialog")
   if (item != null) {
     document.body.removeChild(document.getElementById("colorDialog"));
@@ -12,7 +12,7 @@ if (previousInput != null) {
 }
 
 colorSchemeSelector.onchange = (event) => {
-  clear();
+  colorClear();
   const inputValue = event.target.value;
   if (previousInput != inputValue) {
     // create dialog
@@ -57,6 +57,6 @@ function onClick(inputValue, confirmation) {
       previousInput = inputValue;
       localStorage.setItem("colorScheme", inputValue);
     }
-    clear();
+    colorClear();
   }
 }

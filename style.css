@@ -368,6 +368,12 @@ p {
   max-width: max(500px, 95%);
 }
 
+.noindent {
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 
 div {
   text-align: center;
@@ -436,6 +442,13 @@ td {
 
 label {
   font-size: 18px;
+}
+
+button {
+  border: 0;
+  background: var(--bg2);
+  border: 2px solid var(--border);
+  color: var(--text);
 }
 
 select {

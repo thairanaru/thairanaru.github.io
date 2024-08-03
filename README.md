@@ -1,3 +1,5 @@
+# THE SOURCE CODE HAS MIGRATED TO [CODEBERG](https://codeberg.org/thairanaru/thairanaru-website)
+
 Source code for [thairanaru.netlify.app](thairanaru.netlify.app)
 
 The website is currently only made up with HTML and CSS with a little bit of plain JavaScript. There is probably a whole ton of caveman code here - look, I am not a programmer.\
